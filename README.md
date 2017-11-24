@@ -4,7 +4,6 @@ this class gets information from the applications installed on the device
 
 # Available methods
 
-
 getVersionName - return a String[]
 
 getVersionCode - return a int[]
@@ -20,20 +19,19 @@ getFirstInstallTime - return a Long []
 
 
 
-
 # How to use
 
-# 0 - Download Class and import in your project
+# Step 0: Download Class and import in your project
 
-# 1 - Creat a new objet GetAppInfo.
+# Step 1: Creat a new objet GetAppInfo.
 
         GetAppInfo getAppInfo = new GetAppInfo(Context,String_Array);
         
-# 2 - Call the method you want to use
+# Step 2: Call the method you want to use
 
         String[] appname = getAppInfo.geAppName();
          
-# 3 - Make a for to get results
+# Step 3: Make a for to get results
 
          String result = "";
 
