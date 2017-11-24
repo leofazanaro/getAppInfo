@@ -27,7 +27,7 @@ getFirstInstallTime - return a Long []
 
          String[] packages = {"com.example.leofazanaro.epfinfo","com.example.leofazanaro.bitcoingenerator"};
 
-# Step 2: Create a new objet GetAppInfo and .
+# Step 2: Create a new objet GetAppInfo.
 
         GetAppInfo getAppInfo = new GetAppInfo(Context,packages);
         
