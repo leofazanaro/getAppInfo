@@ -25,7 +25,7 @@ getFirstInstallTime - return a Long []
 
 # Step 1:Create a String[] packages
 
-         String[] packages = {"com.example.leofazanaro.epfinfo","com.example.leofazanaro.bitcoingenerator"};
+         String[] packages = {"package.that.you.want","package.that.you.want"};
 
 # Step 2: Create a new objet GetAppInfo.
 
