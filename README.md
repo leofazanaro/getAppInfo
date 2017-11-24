@@ -23,15 +23,19 @@ getFirstInstallTime - return a Long []
 
 # Step 0: Download Class and import in your project
 
-# Step 1: Creat a new objet GetAppInfo.
+# Step 1:Create a String[] packages
 
-        GetAppInfo getAppInfo = new GetAppInfo(Context,String_Array);
+         String[] packages = {"com.example.leofazanaro.epfinfo","com.example.leofazanaro.bitcoingenerator"};
+
+# Step 2: Create a new objet GetAppInfo and .
+
+        GetAppInfo getAppInfo = new GetAppInfo(Context,packages);
         
-# Step 2: Call the method you want to use
+# Step 3: Call the method you want to use
 
         String[] appname = getAppInfo.geAppName();
          
-# Step 3: Make a for to get results
+# Step 4: Make a for to get results
 
          String result = "";
 
