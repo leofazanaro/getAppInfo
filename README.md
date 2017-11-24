@@ -23,7 +23,7 @@ getFirstInstallTime - return a Long []
 
 # Step 0: Download Class and import in your project
 
-# Step 1:Create a String[] packages
+# Step 1: Create a String[] packages
 
          String[] packages = {"package.that.you.want","package.that.you.want"};
 
